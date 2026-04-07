@@ -1,0 +1,12 @@
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Maven and Build artifacts
+target/
+**/target/
+*.class
+
+# Ignore the nested duplicate folder
+/Hotel-Booking-System/

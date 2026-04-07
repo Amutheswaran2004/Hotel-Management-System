@@ -1,0 +1,16 @@
+package com.amudesh.reservation_module;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+
+@EnableFeignClients
+@SpringBootApplication
+public class ReservationModuleApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ReservationModuleApplication.class, args);
+	}
+
+}
