@@ -2,11 +2,11 @@
 
 A microservices-based Hotel Booking System built with Java and Spring Boot.
 
-## 🏗 Architecture
+## Architecture
 
 This project is designed using a microservices architecture to ensure scalability and maintainability. Various domains of the booking process are separated into independent, loosely coupled services communicating via REST endpoints (using OpenFeign) and managed by a centralized Netflix Eureka Discovery Server.
 
-## 🛠 Technologies & Tools
+## Technologies & Tools
 
 - **Java 21**
 - **Spring Boot 3.4.8**
@@ -14,7 +14,7 @@ This project is designed using a microservices architecture to ensure scalabilit
 - **H2 Database** (In-memory SQL database for straightforward local development)
 - **Maven** (Build and Dependency Management)
 
-## 📦 Modules Overview
+## Modules Overview
 
 The system is composed of the following microservices:
 
@@ -33,7 +33,7 @@ The system is composed of the following microservices:
 5. **`payment-module`**
    - Deals with simulating and recording payment processing and transactions during or after the reservation phase.
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ### Prerequisites
 - **JDK 21** installed and configured on your machine.
@@ -54,5 +54,5 @@ The system is composed of the following microservices:
    - By default, the services use an in-memory H2 database.
    - You can inspect tables and data by navigating to the `/h2-console` endpoint on each module's respective running port.
 
-## 🔒 Future Roadmap
+## Future Roadmap
 - Integration with powerful **Spring Security** and **JWT (JSON Web Tokens)** for strict user Authentication and cross-service Authorization limits.
